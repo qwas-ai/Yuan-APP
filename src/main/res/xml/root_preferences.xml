@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        app:key="pref_font_size"
+        app:title="@string/pref_font_size"
+        app:entries="@array/pref_font_size_entries"
+        app:entryValues="@array/pref_font_size_values"
+        app:defaultValue="16" />
+
+    <ListPreference
+        app:key="pref_line_spacing"
+        app:title="@string/pref_line_spacing"
+        app:entries="@array/pref_line_spacing_entries"
+        app:entryValues="@array/pref_line_spacing_values"
+        app:defaultValue="1.4" />
+
+    <ListPreference
+        app:key="pref_theme_color"
+        app:title="@string/pref_theme_color"
+        app:entries="@array/pref_theme_color_entries"
+        app:entryValues="@array/pref_theme_color_values"
+        app:defaultValue="default" />
+
+    <SwitchPreferenceCompat
+        app:key="pref_night_mode"
+        app:title="@string/pref_night_mode"
+        app:defaultValue="false" />
+
+    <Preference
+        app:key="pref_about"
+        app:title="@string/about"
+        app:summary="@string/about_summary" />
+
+</PreferenceScreen>

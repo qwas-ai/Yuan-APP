@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 蓝色主题 -->
+    <color name="primary_blue">#1976D2</color>
+    <color name="onPrimary_blue">#FFFFFF</color>
+    <color name="primaryContainer_blue">#D1E3F6</color>
+    <color name="onPrimaryContainer_blue">#004580</color>
+    
+    <!-- 绿色主题 -->
+    <color name="primary_green">#2E7D32</color>
+    <color name="onPrimary_green">#FFFFFF</color>
+    <color name="primaryContainer_green">#C8E6C9</color>
+    <color name="onPrimaryContainer_green">#005005</color>
+    
+    <!-- 红色主题 -->
+    <color name="primary_red">#C62828</color>
+    <color name="onPrimary_red">#FFFFFF</color>
+    <color name="primaryContainer_red">#FFCDD2</color>
+    <color name="onPrimaryContainer_red">#8E0000</color>
+    
+    <!-- 紫色主题 -->
+    <color name="primary_purple">#6A1B9A</color>
+    <color name="onPrimary_purple">#FFFFFF</color>
+    <color name="primaryContainer_purple">#E1BEE7</color>
+    <color name="onPrimaryContainer_purple">#38006B</color>
+</resources>

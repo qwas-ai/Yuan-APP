@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 字体大小选项 -->
+    <string-array name="pref_font_size_entries">
+        <item>极小 (12sp)</item>
+        <item>小 (14sp)</item>
+        <item>中 (16sp)</item>
+        <item>大 (18sp)</item>
+        <item>极大 (20sp)</item>
+    </string-array>
+    
+    <string-array name="pref_font_size_values">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+    </string-array>
+    
+    <!-- 行间距选项 -->
+    <string-array name="pref_line_spacing_entries">
+        <item>紧凑 (1.0)</item>
+        <item>适中 (1.2)</item>
+        <item>舒适 (1.4)</item>
+        <item>宽松 (1.6)</item>
+        <item>极宽 (1.8)</item>
+    </string-array>
+    
+    <string-array name="pref_line_spacing_values">
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.4</item>
+        <item>1.6</item>
+        <item>1.8</item>
+    </string-array>
+    
+    <!-- 主题颜色选项 -->
+    <string-array name="pref_theme_color_entries">
+        <item>系统默认</item>
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>红色</item>
+        <item>紫色</item>
+    </string-array>
+    
+    <string-array name="pref_theme_color_values">
+        <item>default</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>red</item>
+        <item>purple</item>
+    </string-array>
+</resources>

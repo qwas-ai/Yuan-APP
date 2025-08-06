@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Yuan写</string>
+    <string name="novel_title_hint">小说标题</string>
+    <string name="novel_description_hint">小说简介</string>
+    <string name="novel_content_hint">小说内容</string>
+    <string name="save_novel">保存小说</string>
+    <string name="novel_saved">小说已保存</string>
+    <string name="novel_deleted">小说已删除</string>
+    <string name="select_cover">选择封面</string>
+    <string name="settings">设置</string>
+    <string name="delete_novel">删除小说</string>
+    <string name="confirm_delete_novel">确定要删除这部小说吗？</string>
+    <string name="edit_novel">编辑小说</string>
+    <string name="reader_mode">阅读模式</string>
+    <string name="writer_mode">作家模式</string>
+    <!-- 新增设置相关 -->
+    <string name="pref_font_size">字体大小</string>
+    <string name="pref_line_spacing">行间距</string>
+    <string name="pref_theme_color">主题颜色</string>
+    <string name="pref_night_mode">夜间模式</string>
+    <string name="about">关于</string>
+    <string name="about_summary">查看应用信息</string>
+    <string name="about_message">本 APP 由自己人制作，当前版本：%1$s</string>
+</resources>

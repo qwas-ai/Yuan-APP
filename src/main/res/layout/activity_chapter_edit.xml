@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.Material3.ActionBar" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="章节标题">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_chapter_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="章节内容">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_chapter_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:minLines="10" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_save_chapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存章节" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_delete_chapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除章节"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主题样式 -->
+    <style name="Theme.Blue" parent="Theme.MyApplication">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorOnPrimary">@color/onPrimary_blue</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer_blue</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer_blue</item>
+    </style>
+    
+    <style name="Theme.Green" parent="Theme.MyApplication">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">@color/onPrimary_green</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer_green</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer_green</item>
+    </style>
+    
+    <style name="Theme.Red" parent="Theme.MyApplication">
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorOnPrimary">@color/onPrimary_red</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer_red</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer_red</item>
+    </style>
+    
+    <style name="Theme.Purple" parent="Theme.MyApplication">
+        <item name="colorPrimary">@color/primary_purple</item>
+        <item name="colorOnPrimary">@color/onPrimary_purple</item>
+        <item name="colorPrimaryContainer">@color/primaryContainer_purple</item>
+        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer_purple</item>
+    </style>
+</resources>
