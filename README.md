@@ -25,6 +25,18 @@ Yuan写是一款专为小说创作者设计的Android应用，提供便捷的小
 
 请参考[技术文档](APP说明文档.md)了解项目架构和实现细节。
 
+## 编译与安装
+
+您可以通过以下方式获取应用的APK文件：
+
+1. **自行编译**：
+   - 克隆项目后，在Android Studio中构建项目
+   - 编译生成的APK位于：`app/build/outputs/apk/release/app-release.apk`
+
+2. **预编译版本**：
+   - 我们提供了预编译的APK文件，位于项目的`app/release/`目录下
+   - 最新版本为：`app-release.apk`
+
 ## 联系方式
 
 如有任何问题或建议，欢迎通过GitHub Issues与我联系。
